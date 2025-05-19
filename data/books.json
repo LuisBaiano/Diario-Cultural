@@ -1,0 +1,67 @@
+[ {
+  "title" : "teste",
+  "genre" : [ "drama" ],
+  "releaseYear" : 2025,
+  "bookId" : 1,
+  "originalTitle" : "teste",
+  "author" : "luis",
+  "publisher" : "bahia",
+  "isbn" : "165498586",
+  "readStatus" : true,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "fweghrt",
+      "reviewDate" : 1747070781020
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "o pequeno principe",
+  "genre" : [ "infantojuvenil" ],
+  "releaseYear" : 1956,
+  "bookId" : 2,
+  "originalTitle" : "le petit prince",
+  "author" : "francais",
+  "publisher" : "qualquer",
+  "isbn" : "2316548651832",
+  "readStatus" : true,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "top d+",
+      "reviewDate" : 1747256158441
+    }, {
+      "rating" : 3,
+      "comment" : "teste",
+      "reviewDate" : 1747680107654
+    } ],
+    "reviewCount" : 2,
+    "averageRating" : 4.0,
+    "lastRating" : 3
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "esse",
+  "genre" : [ "falhou" ],
+  "releaseYear" : 1995,
+  "bookId" : 3,
+  "originalTitle" : "teste",
+  "author" : "sei la",
+  "publisher" : "etewrtrt",
+  "isbn" : "4566464",
+  "readStatus" : true,
+  "readDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 0.0
+} ]

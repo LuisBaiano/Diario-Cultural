@@ -1,0 +1,50 @@
+[ {
+  "title" : "how i met your mother",
+  "genre" : [ "comedia", "drama" ],
+  "releaseYear" : 2005,
+  "seriesId" : 1,
+  "originalTitle" : "how i met your mother",
+  "endYear" : 2013,
+  "whereToWatch" : [ "prime video", "netflix" ],
+  "cast" : [ "patrick neil harys", "cobie smuders" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 22,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "sensacional",
+        "reviewDate" : 1747679227924
+      } ],
+      "reviewCount" : 1,
+      "averageRating" : 5.0,
+      "lastRating" : 5
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 25,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "boa",
+        "reviewDate" : 1747679415208
+      } ],
+      "reviewCount" : 1,
+      "averageRating" : 3.0,
+      "lastRating" : 3
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "reviewCount" : 0,
+    "averageRating" : 0.0,
+    "lastRating" : 0
+  },
+  "averageRating" : 4.0,
+  "ratedSeasonsCount" : 2
+} ]

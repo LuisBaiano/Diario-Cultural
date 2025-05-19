@@ -1,0 +1,25 @@
+[ {
+  "title" : "o poderoso chefão",
+  "genre" : [ "drama", "crime" ],
+  "releaseYear" : 1976,
+  "movieId" : 1,
+  "originalTitle" : "the godfather",
+  "duration" : 220,
+  "director" : "coppola",
+  "synopsis" : "uma familia da mafia",
+  "cast" : [ "al pacino", "marlon brando" ],
+  "whereToWatch" : [ "netflix", "google play" ],
+  "watchedStatus" : true,
+  "watchDate" : null,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "sensacional",
+      "reviewDate" : 1747259615072
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
+} ]

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- =============================================================== -->
+    <!-- INFORMAÇÕES DO SEU PROJETO                                      -->
+    <!-- =============================================================== -->
+    <groupId>org.diariocultural</groupId> <!-- Mantenha ou ajuste se necessário -->
+    <artifactId>Diario_cultural_Etapa_2</artifactId> <!-- Mantenha ou ajuste -->
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- PROPRIEDADES GLOBAIS (VERSÕES JAVA E BIBLIOTECAS)              -->
+    <!-- =============================================================== -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- === AJUSTE AQUI SUA VERSÃO JAVA === -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <!-- ================================= -->
+
+        <!-- Versões das bibliotecas -->
+        <jackson.version>2.16.1</jackson.version> <!-- Verifique a mais recente -->
+        <junit.version>5.10.1</junit.version>     <!-- Verifique a mais recente -->
+    </properties>
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- DEPENDÊNCIAS EXTERNAS                                           -->
+    <!-- =============================================================== -->
+    <dependencies>
+
+        <!-- Jackson (para JSON) -->
+        <!-- Core (necessário por databind e annotations) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <!-- Annotations (necessário por databind) -->
+         <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <!-- Databind (principal - para mapeamento objeto <-> JSON) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <!-- Datatype JSR310 (Suporte para Java 8+ Date/Time API - LocalDate, etc.) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${jackson.version}</version>
+         </dependency>
+
+        <!-- JUnit 5 (para Testes) -->
+        <!-- API Principal -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope> <!-- Importante: Apenas para fase de teste -->
+        </dependency>
+        <!-- Engine para rodar os testes -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope> <!-- Importante: Apenas para fase de teste -->
+        </dependency>
+
+        <!-- Se precisar de mais alguma biblioteca, adicione aqui -->
+
+    </dependencies>
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- CONFIGURAÇÃO DO BUILD (Compilação, Testes, Empacotamento)       -->
+    <!-- =============================================================== -->
+    <build>
+        <plugins>
+            <!-- Plugin do Compilador: Garante uso da versão Java correta -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version> <!-- Versão recente do plugin -->
+                <configuration>
+                    <source>${maven.compiler.source}</source> <!-- Usa property definida acima -->
+                    <target>${maven.compiler.target}</target> <!-- Usa property definida acima -->
+                </configuration>
+            </plugin>
+
+            <!-- Plugin Surefire: Roda os testes JUnit 5 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.2</version> <!-- Versão recente compatível com JUnit 5 -->
+            </plugin>
+
+            <!-- Plugin Assembly (OPCIONAL): Cria um JAR executável com dependências -->
+            <!-- Descomente este bloco se quiser criar um JAR que pode ser rodado com "java -jar ..." -->
+            <!--
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <! - === AJUSTE AQUI: Nome completo da sua classe com o método main === ->
+                            <mainClass>org.diariocultural.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef> <! - Cria JAR com tudo dentro ->
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> <! - ID para a execução ->
+                        <phase>package</phase> <! - Executa durante a fase 'package' do Maven ->
+                        <goals>
+                            <goal>single</goal> <! - O objetivo é criar um único arquivo ->
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
+
+        </plugins>
+    </build>
+    <!-- =============================================================== -->
+
+</project>
