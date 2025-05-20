@@ -163,7 +163,7 @@ Os dados são persistidos em arquivos JSON no diretório `data/` da aplicação.
     "isbn": "978-0618640157",
     "hasCopy": true,
     "readStatus": true,
-    "readDate": 1672531200000, // Exemplo de timestamp ou data ISO
+    "readDate": 1672531200000,
     "reviewInfo": {
       "reviews": [
         {
@@ -176,8 +176,6 @@ Os dados são persistidos em arquivos JSON no diretório `data/` da aplicação.
   }
 ]
 ```
-*(Nota: O formato real da data no JSON pode variar dependendo da configuração do Jackson. Timestamps numéricos ou strings no formato ISO 8601 são comuns.)*
-
 ## 🔮 Próximos Passos e Melhorias Futuras
 
 *   **Refinamento da Interface:** Embora funcional, a CLI pode ser melhorada com mais clareza e validações.
