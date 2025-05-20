@@ -22,4 +22,28 @@
     "lastRating" : 5
   },
   "averageRating" : 5.0
+}, {
+  "title" : "teste1",
+  "genre" : [ "drama" ],
+  "releaseYear" : 2000,
+  "movieId" : 2,
+  "originalTitle" : "teste1",
+  "duration" : 45,
+  "director" : "joão",
+  "synopsis" : "filme teste",
+  "cast" : [ "jão teste" ],
+  "whereToWatch" : [ "netflix" ],
+  "watchedStatus" : true,
+  "watchDate" : 1280113200000,
+  "reviewInfo" : {
+    "reviews" : [ {
+      "rating" : 5,
+      "comment" : "incrivel",
+      "reviewDate" : 1747760162208
+    } ],
+    "reviewCount" : 1,
+    "averageRating" : 5.0,
+    "lastRating" : 5
+  },
+  "averageRating" : 5.0
 } ]

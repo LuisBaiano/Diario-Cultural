@@ -74,7 +74,7 @@ public class BookView extends MediaView {
      */
     public void displayBook(Book book) {
         if (book == null) {
-            displayMessage("❌ Livro inválido ou não encontrado.");
+            displayMessage(" Livro inválido ou não encontrado.");
             return;
         }
         displayMessage("\n--- DETALHES DO LIVRO ---");
@@ -91,7 +91,7 @@ public class BookView extends MediaView {
         displayMessage("Gêneros: " + ((genres != null && !genres.isEmpty()) ? String.join(", ", genres) : "N/A"));
         displayMessage("Ano Publicação: " + book.getReleaseYear());
         displayMessage("Cópia Física: " + (book.hasCopy() ? "Sim" : "Não"));
-        displayMessage("Status Leitura: " + (book.isReadStatus() ? "✅ Lido" : "⬜ Não lido"));
+        displayMessage("Status Leitura: " + (book.isReadStatus() ? " Lido" : " Não lido"));
 
         // Mostra detalhes de leitura e avaliação apenas se marcado como lido
         if (book.isReadStatus()) {
@@ -180,17 +180,17 @@ public class BookView extends MediaView {
             try {
                 String inputStr = getInput(prompt);
                 if (inputStr.isBlank()) {
-                    displayMessage("❌ Entrada não pode ser vazia.");
+                    displayMessage(" Entrada não pode ser vazia.");
                     continue; // Pede novamente
                 }
                 int value = Integer.parseInt(inputStr.trim());
                 if (value >= min && value <= max) {
                     return value; // Retorna o valor válido
                 } else {
-                    displayMessage(String.format("❌ Valor fora do intervalo! Insira um número entre %d e %d.", min, max));
+                    displayMessage(String.format(" Valor fora do intervalo! Insira um número entre %d e %d.", min, max));
                 }
             } catch (NumberFormatException e) {
-                displayMessage("❌ Entrada inválida! Por favor, insira um número inteiro.");
+                displayMessage(" Entrada inválida! Por favor, insira um número inteiro.");
             }
         }
     }
@@ -217,10 +217,10 @@ public class BookView extends MediaView {
                 if (value >= min && value <= max) {
                     return value; // Retorna o valor válido
                 }
-                displayMessage(String.format("❌ Valor fora do intervalo! (%d-%d).", min, max));
+                displayMessage(String.format(" Valor fora do intervalo! (%d-%d).", min, max));
             } catch (NumberFormatException e) {
                 // Permite deixar em branco, então a mensagem é um pouco diferente
-                displayMessage("❌ Número inválido. Digite um número entre " + min + " e " + max + " ou deixe em branco para manter.");
+                displayMessage(" Número inválido. Digite um número entre " + min + " e " + max + " ou deixe em branco para manter.");
             }
         }
     }
@@ -243,7 +243,7 @@ public class BookView extends MediaView {
                 if (resp.equals("n")) return false;
             }
             // Se chegou aqui, a resposta foi inválida ou nula
-            displayMessage("❌ Resposta inválida. Por favor, digite 's' para sim ou 'n' para não.");
+            displayMessage(" Resposta inválida. Por favor, digite 's' para sim ou 'n' para não.");
         }
     }
 
@@ -263,7 +263,7 @@ public class BookView extends MediaView {
             resp = resp.toLowerCase().trim();
             if (resp.equals("s")) return true;
             if (resp.equals("n")) return false;
-            displayMessage("❌ Resposta inválida! Digite 's', 'n' ou deixe em branco para manter.");
+            displayMessage(" Resposta inválida! Digite 's', 'n' ou deixe em branco para manter.");
         }
     }
 

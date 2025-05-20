@@ -31,10 +31,10 @@ public class BookController {
         Book book = bookView.getBookDetails();
         if (book != null) {
             books.add(book);
-            System.out.println("📖 Livro '" + book.getTitle() + "' adicionado com sucesso!");
+            System.out.println(" Livro '" + book.getTitle() + "' adicionado com sucesso!");
             saveData();
         } else {
-            System.out.println("❌ Cadastro de livro cancelado ou falhou.");
+            System.out.println(" Cadastro de livro cancelado ou falhou.");
         }
     }
 
@@ -122,13 +122,13 @@ public class BookController {
                     bookView.displayMessage("Nova avaliação adicionada!");
                 }
             } else {
-                bookView.displayMessage("\nℹ️ Para adicionar uma avaliação, primeiro marque o livro como 'Lido'.");
+                bookView.displayMessage("\n Para adicionar uma avaliação, primeiro marque o livro como 'Lido'.");
             }
 
-            System.out.println("✅ Livro '" + bookToUpdate.getTitle() + "' atualizado com sucesso!");
+            System.out.println(" Livro '" + bookToUpdate.getTitle() + "' atualizado com sucesso!");
             saveData();
         } else {
-            System.out.println("❌ Livro com título '" + title + "' não encontrado para atualização!");
+            System.out.println(" Livro com título '" + title + "' não encontrado para atualização!");
         }
     }
 
@@ -161,13 +161,13 @@ public class BookController {
             Book bookToRemove = bookOptional.get();
             if (bookView.getYesNoInput("Tem certeza que deseja remover o livro '" + bookToRemove.getTitle() + "'? (s/n)")) {
                 books.remove(bookToRemove);
-                System.out.println("✅ Livro '" + bookToRemove.getTitle() + "' removido com sucesso!");
+                System.out.println(" Livro '" + bookToRemove.getTitle() + "' removido com sucesso!");
                 saveData();
             } else {
                 System.out.println("Remoção cancelada.");
             }
         } else {
-            System.out.println("❌ Livro com título '" + title + "' não encontrado para remoção!");
+            System.out.println(" Livro com título '" + title + "' não encontrado para remoção!");
         }
     }
 
@@ -195,7 +195,7 @@ public class BookController {
     public void listAllBooks() {
         // (Seu método listAllBooks, com applyBookFilters e applyBookSorting, como já definido antes)
         if (books.isEmpty()) {
-            bookView.displayMessage("📚 Nenhum livro cadastrado no momento.");
+            bookView.displayMessage(" Nenhum livro cadastrado no momento.");
             return;
         }
         List<Book> displayList = new ArrayList<>(this.books);
@@ -217,7 +217,7 @@ public class BookController {
 
         if (displayList.isEmpty()) {
             if (wasFilteredOrSorted) {
-                bookView.displayMessage("ℹ️ Nenhum livro encontrado após aplicar os filtros/ordenação selecionados.");
+                bookView.displayMessage(" Nenhum livro encontrado após aplicar os filtros/ordenação selecionados.");
             }
             // Não precisa do else, pois o primeiro if de books.isEmpty() já trataria.
         } else {
@@ -346,7 +346,7 @@ public class BookController {
             File dataDir = new File(DATA_DIRECTORY);
             if (!dataDir.exists()) {
                 if (!dataDir.mkdirs()) {
-                    System.err.println("❌ Falha ao criar diretório: " + dataDir.getAbsolutePath());
+                    System.err.println(" Falha ao criar diretório: " + dataDir.getAbsolutePath());
                     return;
                 }
             }

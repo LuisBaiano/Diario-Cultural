@@ -123,10 +123,10 @@ public class Movie extends Media {
                     .max()
                     .orElse(0);
             nextId = maxId + 1; // O construtor principal fará this.movieId = nextId++;
-            System.out.println("🔄 Contador de ID de Filme ajustado. Próximo ID será: " + nextId);
+            System.out.println(" Contador de ID de Filme ajustado. Próximo ID será: " + nextId);
         } else {
             nextId = 1; // Se não há dados, começa do 1
-            System.out.println("ℹ️ Nenhum dado de filme carregado, contador de ID iniciado em 1.");
+            System.out.println(" Nenhum dado de filme carregado, contador de ID iniciado em 1.");
         }
         if (loadedMovies != null && !loadedMovies.isEmpty()) {
             int maxId = loadedMovies.stream().mapToInt(Movie::getMovieId).max().orElse(0);

@@ -139,11 +139,11 @@ public class Book extends Media {
             // Define o contador estático para o valor do maior ID encontrado.
             // O construtor principal fará ++bookCounter, então o próximo ID será maxId + 1.
             bookCounter = maxId;
-            System.out.println("🔄 Contador de ID de Livro ajustado. Próximo ID será: " + (maxId + 1));
+            System.out.println("Contador de ID de Livro ajustado. Próximo ID será: " + (maxId + 1));
         } else {
             // Se não havia dados carregados, garante que o contador comece do zero.
             bookCounter = 0;
-            System.out.println("ℹ️ Nenhum dado de livro carregado, contador de ID iniciado em 0.");
+            System.out.println("Nenhum dado de livro carregado, contador de ID iniciado em 0.");
         }
     }
     // --- FIM DO NOVO MÉTODO ---

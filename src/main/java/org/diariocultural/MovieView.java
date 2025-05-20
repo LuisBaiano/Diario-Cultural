@@ -85,7 +85,7 @@ public class MovieView extends MediaView {
      */
     public void displayMovieDetails(Movie movie) {
         if (movie == null) {
-            displayMessage("❌ Filme inválido ou não encontrado.");
+            displayMessage(" Filme inválido ou não encontrado.");
             return;
         }
         displayMessage("\n=== DETALHES DO FILME [ID: " + movie.getMovieId() + "] ===");
@@ -212,7 +212,7 @@ public class MovieView extends MediaView {
                 }
                 return dateFormat.parse(dateStr.trim()); // Tenta converter
             } catch (ParseException e) {
-                displayMessage("❌ Data inválida! Use o formato dd/MM/yyyy ou deixe em branco.");
+                displayMessage(" Data inválida! Use o formato dd/MM/yyyy ou deixe em branco.");
             }
         }
     }
@@ -263,17 +263,17 @@ public class MovieView extends MediaView {
             try {
                 String inputStr = getInput(prompt);
                 if (inputStr == null || inputStr.isBlank()) {
-                    displayMessage("❌ Entrada não pode ser vazia.");
+                    displayMessage(" Entrada não pode ser vazia.");
                     continue;
                 }
                 int value = Integer.parseInt(inputStr.trim());
                 if (value >= min && value <= max) {
                     return value;
                 } else {
-                    displayMessage(String.format("❌ Valor fora do intervalo! Insira um número entre %d e %d.", min, max));
+                    displayMessage(String.format(" Valor fora do intervalo! Insira um número entre %d e %d.", min, max));
                 }
             } catch (NumberFormatException e) {
-                displayMessage("❌ Entrada inválida! Por favor, insira um número inteiro.");
+                displayMessage(" Entrada inválida! Por favor, insira um número inteiro.");
             }
         }
     }
@@ -299,9 +299,9 @@ public class MovieView extends MediaView {
                 if (value >= min && value <= max) {
                     return value;
                 }
-                displayMessage(String.format("❌ Valor fora do intervalo! (%d-%d).", min, max));
+                displayMessage(String.format(" Valor fora do intervalo! (%d-%d).", min, max));
             } catch (NumberFormatException e) {
-                displayMessage("❌ Número inválido. Digite um número ou deixe em branco para manter.");
+                displayMessage(" Número inválido. Digite um número ou deixe em branco para manter.");
             }
         }
     }
@@ -323,7 +323,7 @@ public class MovieView extends MediaView {
                 if (resp.equals("s")) return true;
                 if (resp.equals("n")) return false;
             }
-            displayMessage("❌ Resposta inválida. Por favor, digite 's' ou 'n'.");
+            displayMessage(" Resposta inválida. Por favor, digite 's' ou 'n'.");
         }
     }
 
@@ -343,7 +343,7 @@ public class MovieView extends MediaView {
             response = response.toLowerCase().trim();
             if (response.equals("s")) return Boolean.TRUE;
             if (response.equals("n")) return Boolean.FALSE;
-            displayMessage("❌ Resposta inválida! Digite 's', 'n' ou deixe em branco para manter.");
+            displayMessage(" Resposta inválida! Digite 's', 'n' ou deixe em branco para manter.");
         }
     }
 

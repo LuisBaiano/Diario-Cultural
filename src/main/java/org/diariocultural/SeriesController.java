@@ -335,14 +335,14 @@ public class SeriesController {
             File dataDir = new File(DATA_DIRECTORY);
             if (!dataDir.exists()) {
                 if (!dataDir.mkdirs()) {
-                    System.err.println("❌ Falha ao criar diretório de dados: " + dataDir.getAbsolutePath());
+                    System.err.println(" Falha ao criar diretório de dados: " + dataDir.getAbsolutePath());
                     return;
                 }
             }
             objectMapper.writeValue(new File(FILE_PATH), seriesList);
             // System.out.println("Dados de séries salvos em " + FILE_PATH);
         } catch (IOException e) {
-            System.err.println("❌ Erro ao salvar dados de séries: " + e.getMessage());
+            System.err.println(" Erro ao salvar dados de séries: " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -356,9 +356,9 @@ public class SeriesController {
         if (file.exists() && file.isFile() && file.length() > 0) {
             try {
                 this.seriesList = objectMapper.readValue(file, new TypeReference<List<Series>>() {});
-                System.out.println("✅ Dados de séries carregados de " + FILE_PATH);
+                System.out.println(" Dados de séries carregados de " + FILE_PATH);
             } catch (IOException e) {
-                System.err.println("❌ Erro ao carregar dados de séries: " + e.getMessage());
+                System.err.println(" Erro ao carregar dados de séries: " + e.getMessage());
                 e.printStackTrace();
                 this.seriesList = new ArrayList<>(); // Começa vazio se houver erro
             }

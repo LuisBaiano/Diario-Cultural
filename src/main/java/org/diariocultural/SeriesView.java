@@ -46,7 +46,7 @@ public class SeriesView extends MediaView { // Assume MediaView provides basic I
     public void displaySeriesDetails(Series series) {
         // (Lógica completa conforme você forneceu)
         if (series == null) {
-            displayMessage("❌ Série inválida ou não encontrada.");
+            displayMessage(" Série inválida ou não encontrada.");
             return;
         }
         displayMessage("\n=== DETALHES DA SÉRIE [ID: " + series.getSeriesId() + "] ===");
@@ -62,7 +62,7 @@ public class SeriesView extends MediaView { // Assume MediaView provides basic I
         displayMessage("Onde Assistir: " + ((platforms!=null && !platforms.isEmpty())?String.join(", ", platforms):"N/A"));
         List<String> mainCast = series.getCast();
         displayMessage("Elenco Principal: " + ((mainCast!=null && !mainCast.isEmpty())?String.join(", ", mainCast):"N/A"));
-        displayMessage("Status: " + (series.isWatchedStatus() ? "✅ Assistida" : "⬜ Não assistida"));
+        displayMessage("Status: " + (series.isWatchedStatus() ? " Assistida" : " Não assistida"));
         displayAverageSeasonRating(series);
         displaySeasons(series.getSeasons());
     }
@@ -133,7 +133,7 @@ public class SeriesView extends MediaView { // Assume MediaView provides basic I
     }
 
     private int getValidatedInt(String prompt, int min, int max) {
-        while (true) { try { String i=getInput(prompt); if(i.isBlank()){displayMessage("❌ Entrada vazia."); continue;} int v=Integer.parseInt(i.trim()); if(v>=min && v<=max) return v; else displayMessage(String.format("❌ Valor inválido (%d-%d).", min, max)); } catch (NumberFormatException e) { displayMessage("❌ Número inválido."); } }
+        while (true) { try { String i=getInput(prompt); if(i.isBlank()){displayMessage(" Entrada vazia."); continue;} int v=Integer.parseInt(i.trim()); if(v>=min && v<=max) return v; else displayMessage(String.format("❌ Valor inválido (%d-%d).", min, max)); } catch (NumberFormatException e) { displayMessage("❌ Número inválido."); } }
     }
 
     public int getOptionalValidatedInt(String prompt, int min, int max) {

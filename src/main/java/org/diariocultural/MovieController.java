@@ -68,7 +68,7 @@ public class MovieController {
             mediaView.displayMessage(" Filme '" + movie.getTitle() + "' adicionado com sucesso!");
             saveData(); // Salva após adicionar
         } else {
-            mediaView.displayMessage("❌ Cadastro de filme cancelado ou falhou.");
+            mediaView.displayMessage(" Cadastro de filme cancelado ou falhou.");
         }
     }
 
@@ -80,7 +80,7 @@ public class MovieController {
     public void updateMovie(String title) {
         Optional<Movie> movieOptional = findMovieByTitleInternal(title);
         if (movieOptional.isEmpty()) {
-            mediaView.displayMessage("❌ Filme com título '" + title + "' não encontrado!");
+            mediaView.displayMessage(" Filme com título '" + title + "' não encontrado!");
             return;
         }
         Movie movieToUpdate = movieOptional.get();
@@ -369,14 +369,14 @@ public class MovieController {
                 if (dataDir.mkdirs()) {
                     System.out.println("Diretório de dados criado: " + dataDir.getAbsolutePath());
                 } else {
-                    System.err.println("❌ Falha ao criar diretório de dados: " + dataDir.getAbsolutePath());
+                    System.err.println(" Falha ao criar diretório de dados: " + dataDir.getAbsolutePath());
                     return; // Não prosseguir se não puder criar o diretório
                 }
             }
             objectMapper.writeValue(new File(FILE_PATH), movies);
             // System.out.println("Dados de filmes salvos em " + FILE_PATH); // Log opcional
         } catch (IOException e) {
-            System.err.println("❌ Erro crítico ao salvar dados de filmes: " + e.getMessage());
+            System.err.println(" Erro crítico ao salvar dados de filmes: " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -396,19 +396,19 @@ public class MovieController {
         if (file.exists() && file.isFile() && file.length() > 0) {
             try {
                 this.movies = objectMapper.readValue(file, new TypeReference<List<Movie>>() {});
-                System.out.println("✅ Dados de filmes carregados de " + FILE_PATH);
+                System.out.println(" Dados de filmes carregados de " + FILE_PATH);
             } catch (IOException e) {
-                System.err.println("❌ Erro ao ler ou desserializar o arquivo " + FILE_PATH + ": " + e.getMessage());
+                System.err.println(" Erro ao ler ou desserializar o arquivo " + FILE_PATH + ": " + e.getMessage());
                 e.printStackTrace();
                 this.movies = new ArrayList<>(); // Inicia com lista vazia em caso de erro
             }
         } else {
             if (!file.exists()) {
-                System.out.println("ℹ️ Arquivo " + FILE_PATH + " não encontrado. Um novo será criado ao salvar.");
+                System.out.println(" Arquivo " + FILE_PATH + " não encontrado. Um novo será criado ao salvar.");
             } else if (file.isFile() && file.length() == 0) {
-                System.out.println("ℹ️ Arquivo " + FILE_PATH + " está vazio. Iniciando com catálogo de filmes vazio.");
+                System.out.println(" Arquivo " + FILE_PATH + " está vazio. Iniciando com catálogo de filmes vazio.");
             } else if (!file.isFile()){
-                System.out.println("❌ O caminho " + FILE_PATH + " existe, mas não é um arquivo. Verifique.");
+                System.out.println(" O caminho " + FILE_PATH + " existe, mas não é um arquivo. Verifique.");
             }
             this.movies = new ArrayList<>();
         }

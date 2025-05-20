@@ -160,10 +160,10 @@ public class Series extends Media {
             // O construtor principal faz nextId++, então aqui definimos nextId como maxId + 1
             // para que o próximo novo ID seja realmente maxId + 1 após o incremento.
             nextId = maxId + 1;
-            System.out.println("🔄 Contador de ID de Série ajustado. Próximo ID (antes de ++) será: " + nextId);
+            System.out.println(" Contador de ID de Série ajustado. Próximo ID será: " + nextId);
         } else {
             nextId = 1; // Se não há dados, o próximo ID gerado (após o ++) será 1.
-            System.out.println("ℹ️ Nenhum dado de série carregado, contador de ID para começar do 1.");
+            System.out.println(" Nenhum dado de série carregado, contador de ID para começar do 1.");
         }
     }
 

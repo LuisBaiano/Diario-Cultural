@@ -18,8 +18,8 @@
         "comment" : "sensacional",
         "reviewDate" : 1747679227924
       } ],
-      "reviewCount" : 1,
       "averageRating" : 5.0,
+      "reviewCount" : 1,
       "lastRating" : 5
     }
   }, {
@@ -33,18 +33,52 @@
         "comment" : "boa",
         "reviewDate" : 1747679415208
       } ],
-      "reviewCount" : 1,
       "averageRating" : 3.0,
+      "reviewCount" : 1,
       "lastRating" : 3
     }
   } ],
   "watchedStatus" : true,
   "reviewInfo" : {
     "reviews" : [ ],
-    "reviewCount" : 0,
     "averageRating" : 0.0,
+    "reviewCount" : 0,
     "lastRating" : 0
   },
   "averageRating" : 4.0,
   "ratedSeasonsCount" : 2
+}, {
+  "title" : "The office",
+  "genre" : [ "comedia", "mockumentary" ],
+  "releaseYear" : 2005,
+  "seriesId" : 2,
+  "originalTitle" : "The office",
+  "endYear" : 2013,
+  "whereToWatch" : [ "Prime video", "mercado play", "netflix" ],
+  "cast" : [ "Steve Carell", "Jenna Fischer", "John Krasinski", "Ellie Kemper" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 6,
+    "releaseYear" : 2005,
+    "cast" : [ "B. J. Novak" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "temporada fraca",
+        "reviewDate" : 1747758912300
+      } ],
+      "averageRating" : 3.0,
+      "reviewCount" : 1,
+      "lastRating" : 3
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "reviewCount" : 0,
+    "lastRating" : 0
+  },
+  "averageRating" : 3.0,
+  "ratedSeasonsCount" : 1
 } ]
