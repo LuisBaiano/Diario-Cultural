@@ -18,7 +18,14 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
- * Controlador para gerenciar séries, incluindo persistência JSON e operações com temporadas.
+ * Controlador responsável por gerenciar as operações CRUD (Criar, Ler, Atualizar, Deletar),
+ * busca e listagem avançada para a entidade {@link Series}.
+ * Utiliza {@link MovieView} para interações específicas de séries e {@link MediaView}
+ * para mensagens genéricas.
+ *
+ * @see Series
+ * @see SeriesView
+ * @see MediaView
  */
 public class SeriesController {
 

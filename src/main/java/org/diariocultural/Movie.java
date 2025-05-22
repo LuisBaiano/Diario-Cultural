@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
+/**
+ * Representa um filme de mídia, estendendo {@link Media}.
+ */
 
 @JsonIgnoreProperties(ignoreUnknown = true) // Para ignorar campos JSON não mapeados
 public class Movie extends Media {

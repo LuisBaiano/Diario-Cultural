@@ -7,12 +7,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-// Removido import de Collectors se não usado diretamente aqui.
+
 
 /**
  * Representa uma série de mídia, estendendo {@link Media}.
  */
-@JsonIgnoreProperties(ignoreUnknown = true) // Para ignorar campos JSON não mapeados
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Series extends Media {
 
     private static int nextId = 1;
@@ -21,7 +21,7 @@ public class Series extends Media {
     private int endYear;
     private List<String> whereToWatch;
     private List<String> cast;
-    private List<Season> seasons; // Não é final para permitir set pelo Jackson
+    private List<Season> seasons;
     private boolean watchedStatus;
 
     /**

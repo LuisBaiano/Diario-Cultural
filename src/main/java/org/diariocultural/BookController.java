@@ -10,6 +10,16 @@ import java.io.IOException;
 import java.util.*; // Para Comparator, Collections, Date, Optional, etc.
 import java.util.stream.Collectors;
 
+/**
+ * Controlador responsável por gerenciar as operações CRUD (Criar, Ler, Atualizar, Deletar),
+ * busca e listagem avançada para a entidade {@link Book}.
+ * Utiliza {@link MovieView} para interações específicas de livros e {@link MediaView}
+ * para mensagens genéricas.
+ *
+ * @see Book
+ * @see BookView
+ * @see MediaView
+ */
 public class BookController {
 
     private List<Book> books;
