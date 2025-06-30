@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="750.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diariocultural.fx.MainViewController">
+    <left>
+        <VBox prefWidth="220.0" spacing="10.0" styleClass="sidebar">
+            <children>
+                <Label text="Diário Cultural">
+                    <font><Font name="System Bold" size="24.0" /></font>
+                </Label>
+
+                <!-- Botões de Navegação -->
+                <Button fx:id="libraryButton" onAction="#showLibraryView" prefHeight="40.0" prefWidth="220.0" text="Meu Acervo" />
+                <Button fx:id="addBookButton" onAction="#showBookFormView" prefHeight="40.0" prefWidth="220.0" text="Cadastrar Livro" />
+                <Button fx:id="addMovieButton" onAction="#showMovieFormView" prefHeight="40.0" prefWidth="220.0" text="Cadastrar Filme" />
+                <Button fx:id="addSeriesButton" onAction="#showSeriesFormView" prefHeight="40.0" prefWidth="220.0" text="Cadastrar Série" />
+
+
+                <Region VBox.vgrow="ALWAYS" />
+
+
+                <Button onAction="#onHelpButtonClick" prefHeight="35.0" prefWidth="220.0" styleClass="help-button" text="Guia de Uso">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Button>
+
+                <VBox spacing="3.0">
+                    <children>
+                        <Label styleClass="footer-title" text="Desenvolvido por:"/>
+                        <Label styleClass="footer-name" text="Davi Baleeiro"/>
+                        <Label styleClass="footer-link" text="github.com/Davilmao1306"/>
+                        <Label styleClass="footer-name" text="Luis Felipe Carvalho">
+                            <VBox.margin><Insets top="5.0" /></VBox.margin>
+                        </Label>
+                        <Label styleClass="footer-link" text="github.com/LuisBaiano"/>
+                        <Separator prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                            <VBox.margin><Insets top="10.0" bottom="5.0" /></VBox.margin>
+                        </Separator>
+                        <Label styleClass="footer-small" text="© 2025 Diário Cultural"/>
+                        <Label styleClass="footer-small" text="Licença MIT (Open Source)"/>
+
+                        <Separator prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                            <VBox.margin>
+                                <Insets top="10.0" bottom="5.0" />
+                            </VBox.margin>
+                        </Separator>
+
+                        <ToggleButton fx:id="contrastButton" onAction="#onToggleContrastMode" styleClass="contrast-button" prefWidth="220.0" text="Modo de Alto Contraste" />
+
+                    </children>
+                </VBox>
+
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </VBox>
+    </left>
+    <center>
+        <BorderPane fx:id="contentArea" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

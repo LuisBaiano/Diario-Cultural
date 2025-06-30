@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefWidth="550.0" styleClass="detail-screen" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diariocultural.fx.MediaDetailViewController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label fx:id="titleLabel" text="Título da Mídia" wrapText="true">
+            <font><Font name="System Bold" size="24.0" /></font>
+        </Label>
+        <Label fx:id="originalTitleLabel" text="Título Original" textFill="#555555" />
+        <Separator prefWidth="200.0" />
+
+        <GridPane hgap="10.0" vgap="8.0">
+            <children>
+                <Label text="Tipo:" style="-fx-font-weight: bold;" />
+                <Label fx:id="typeLabel" text="-" GridPane.columnIndex="1" />
+                <Label text="Ano:" style="-fx-font-weight: bold;" GridPane.rowIndex="1" />
+                <Label fx:id="yearLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label fx:id="creatorTitleLabel" style="-fx-font-weight: bold;" GridPane.rowIndex="2" />
+                <Label fx:id="creatorNameLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label fx:id="endYearTitleLabel" style="-fx-font-weight: bold;" text="Ano de Encerramento:" GridPane.rowIndex="3" />
+                <Label fx:id="endYearLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label fx:id="durationTitleLabel" style="-fx-font-weight: bold;" text="Duração:" GridPane.rowIndex="4" />
+                <Label fx:id="durationLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label fx:id="isbnTitleLabel" style="-fx-font-weight: bold;" text="ISBN:" GridPane.rowIndex="5" />
+                <Label fx:id="isbnLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Label fx:id="seriesRatingTitleLabel" style="-fx-font-weight: bold;" text="Nota Média:" GridPane.rowIndex="4" />
+                <Label fx:id="seriesRatingLabel" text="-" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            </children>
+        </GridPane>
+
+        <Label fx:id="genresTitleLabel" text="Gêneros:" style="-fx-font-weight: bold;" />
+        <Label fx:id="genresLabel" text="-" wrapText="true" />
+
+        <Label fx:id="castTitleLabel" text="Elenco Principal:" style="-fx-font-weight: bold;" />
+        <Label fx:id="castLabel" text="-" wrapText="true" />
+
+        <VBox fx:id="lastReviewBox" managed="false" spacing="5.0" visible="false">
+            <children>
+                <Separator prefWidth="200.0" />
+                <Label text="Sua Última Avaliação:" style="-fx-font-weight: bold;" />
+                <Label fx:id="lastReviewRatingLabel" />
+                <Label fx:id="lastReviewCommentLabel" wrapText="true" />
+            </children>
+            <VBox.margin><Insets top="10.0" /></VBox.margin>
+        </VBox>
+
+        <Label fx:id="seasonsTitleLabel" text="Temporadas:" style="-fx-font-weight: bold;" />
+        <TableView fx:id="seasonsTableView" prefHeight="150.0">
+            <columns>
+                <TableColumn fx:id="seasonNumberColumn" prefWidth="100.0" text="Temporada" />
+                <TableColumn fx:id="seasonYearColumn" prefWidth="100.0" text="Ano" />
+                <TableColumn fx:id="episodesColumn" prefWidth="120.0" text="Episódios" />
+                <TableColumn fx:id="ratingColumn" prefWidth="100.0" text="Sua Nota" />
+                <TableColumn fx:id="seasonCastColumn" prefWidth="200.0" text="Elenco Adicional" />
+                <TableColumn fx:id="seasonCommentColumn" prefWidth="300.0" text="Comentário da Avaliação" />
+            </columns>
+        </TableView>
+
+        <HBox alignment="CENTER_RIGHT" spacing="10.0">
+            <VBox.margin><Insets top="20.0" /></VBox.margin>
+            <children>
+                <Button onAction="#handleEditAction" prefWidth="100.0" text="Editar" />
+                <Button onAction="#handleDeleteAction" prefWidth="100.0" style="-fx-background-color: #E57373;" text="Excluir" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

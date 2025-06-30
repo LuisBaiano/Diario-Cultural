@@ -1,0 +1,213 @@
+/* --- Estilo Geral da Aplicação --- */
+.root {
+    -fx-font-family: "Segoe UI", "Sans-serif";
+    -fx-background-color: #f8e4ab; /* Fundo Bege */
+    -fx-text-fill: #3D2B1F;
+}
+
+/* --- Barra de Navegação Lateral --- */
+.sidebar {
+    -fx-background-color: #d2b48c; /* Fundo Bronzeado */
+}
+
+.sidebar .label {
+    -fx-text-fill: #3D2B1F;
+}
+
+/* --- Estilo Padrão dos Botões --- */
+.button {
+    -fx-background-color: #E3C9A6;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #268BD2; /* Acento Secundário: Azul Forte */
+    -fx-text-fill: white;
+}
+
+/* Botão de Excluir */
+.button-delete {
+    -fx-background-color: #d81717;
+    -fx-text-fill: white;
+}
+.button-delete:hover {
+    -fx-background-color: #D32F2F;
+}
+
+/* Estilo para o botão de navegação ATIVO */
+.active-nav-button {
+    -fx-background-color: #556B2F; /* Verde Oliva Escuro */
+    -fx-text-fill: white;
+}
+.active-nav-button:hover {
+    -fx-background-color: #6B8E23;
+    -fx-text-fill: white;
+}
+
+/* --- Tabela Principal --- */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #D2B48C;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #D2B48C;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #3D2B1F;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #F0EAD6;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #556B2F;
+    -fx-text-fill: white;
+}
+
+/* --- Campos de Texto e ComboBox --- */
+.text-field, .combo-box, .date-picker, .text-area {
+    -fx-background-color: white;
+    -fx-border-color: #C1A87C;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+.text-field:focused, .combo-box:focused, .date-picker:focused, .text-area:focused {
+    -fx-border-color: #556B2F;
+    -fx-border-width: 2px;
+}
+
+/* --- Estilo para a Tela de Boas-Vindas --- */
+.welcome-screen {
+    -fx-background-color: #f8e4ab; /* Um bege mais claro e suave */
+}
+
+.welcome-screen .label {
+    -fx-text-fill: #583e2e; /* Um marrom mais suave */
+}
+
+.welcome-screen .button {
+    -fx-background-color: #556B2F; /* Botão de acesso com a cor de destaque */
+    -fx-text-fill: white;
+}
+.welcome-screen .button:hover {
+    -fx-background-color: #6B8E23;
+}
+
+
+/* --- Estilo para os Painéis de Formulário --- */
+.form-pane {
+    -fx-padding: 20px;
+}
+
+.form-pane .label {
+    -fx-text-fill: #3D2B1F;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para o título principal dos formulários */
+.form-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3D2B1F;
+}
+
+.form-pane .button {
+    -fx-background-color: #556B2F; /* Cor de destaque para o botão de salvar */
+    -fx-text-fill: white;
+}
+.form-pane .button:hover {
+    -fx-background-color: #6B8E23;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+
+.form-pane .grid-pane {
+    -fx-background-color: transparent;
+}
+
+.filter-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 5px; /* Padding que estava no FXML */
+    -fx-border-color: #C1A87C; /* Cor da sua paleta 'Biblioteca Clássica' */
+    -fx-border-width: 0 0 1 0; /* Borda apenas na parte inferior */
+}
+
+/* Estilos para a Janela de Ajuda */
+.help-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3D2B1F;
+}
+
+.help-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #583e2e;
+}
+
+/* --- Estilo para o Botão de Ajuda no Rodapé --- */
+.help-button {
+    -fx-background-color: #D35400; /* Cor Laranja Queimado */
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.help-button:hover {
+    -fx-background-color: #E65100; /* Um tom mais vibrante no hover */
+}
+
+/* --- Estilo para o Botão de auto contraste no Rodapé --- */
+.contrast-button {
+    -fx-background-color: #005bd3; /* Cor Laranja Queimado */
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+/* --- Estilo para o Botão de auto contraste no Rodapé --- */
+.contrast-button:hover  {
+    -fx-background-color: #002ad3; /* Cor Laranja Queimado */
+}
+
+
+/* --- Estilos para o Rodapé da Barra Lateral --- */
+
+.footer-title {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3D2B1F; /* Cor principal do texto */
+}
+
+.footer-name {
+    -fx-font-size: 11px;
+    -fx-text-fill: #583e2e; /* Um marrom um pouco mais suave */
+}
+
+.footer-link {
+    -fx-font-size: 10px;
+    -fx-text-fill: #6B8E23; /* Verde oliva para destacar o link */
+    -fx-underline: true; /* Sublinhado para parecer um link */
+}
+
+.footer-small {
+    -fx-font-size: 10px;
+    -fx-text-fill: #7d6c62; /* Um marrom ainda mais suave, para detalhes */
+    -fx-opacity: 0.9;
+}
+
+/* Estilo para o separador */
+.sidebar .separator .line {
+    -fx-border-color: #C1A87C; /* Cor da borda da sua paleta */
+    -fx-border-width: 1;
+}

@@ -1,0 +1,184 @@
+/* --- TEMA DE ALTO CONTRASTE PARA ACESSIBILIDADE (VERSÃO FINAL) --- */
+
+/* --- FUNDO E TEXTO PADRÃO --- */
+.root {
+    -fx-background-color: black;
+}
+
+.sidebar, .form-pane, .scroll-pane, .scroll-pane > .viewport, .filter-bar, .dialog-pane, .welcome-screen{
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: black;
+}
+
+/* --- Estilo para os Painéis de Formulário --- */
+.form-pane {
+    -fx-padding: 20px;
+}
+
+.form-pane .label {
+    -fx-text-fill: #ffff00;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para o título principal dos formulários */
+.form-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.label, .check-box, .radio-button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Títulos e destaques principais */
+.sidebar .label, .form-title, .help-title, .footer-title, .footer-name, .welcome-screen .label {
+    -fx-text-fill: #FFFF00; /* Amarelo */
+}
+
+/* Texto secundário e de ajuda */
+.footer-link, .footer-small, .help-text {
+    -fx-text-fill: white;
+}
+
+.footer-link {
+    -fx-underline: true;
+}
+
+/* --- BOTÕES --- */
+.button, .toggle-button {
+    -fx-background-color: black;
+    -fx-text-fill: #FFFF00;
+    -fx-border-color: #FFFF00;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-background-color: #333333;
+}
+
+.filter-bar .button {
+    -fx-background-color: black;
+    -fx-text-fill: #FFFF00;
+    -fx-border-color: #FFFF00;
+}
+.filter-bar .button:hover {
+    -fx-background-color: #333333;
+}
+
+/* Botões com função especial (ativos, delete, ajuda, acesso) */
+.active-nav-button, .button-delete, .help-button, .welcome-screen .button, .form-pane .button {
+    -fx-background-color: #FFFF00; /* Fundo Amarelo */
+    -fx-text-fill: black;          /* Texto Preto */
+}
+.active-nav-button:hover, .button-delete:hover, .help-button:hover, .welcome-screen .button:hover, .form-pane .button:hover {
+    -fx-background-color: #DDDD00;
+}
+
+/* Botão de Alto Contraste quando selecionado */
+.toggle-button:selected {
+    -fx-background-color: #00FFFF; /* Fundo Ciano */
+    -fx-text-fill: black;          /* Texto Preto */
+    -fx-border-color: white;
+}
+
+/* --- Tabela Principal --- */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: black;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 0 1 2 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:even {
+    -fx-background-color: black;
+}
+.table-row-cell:odd {
+    -fx-background-color: #ffffff; /* Cinza muito escuro para contraste sutil */
+}
+
+.table-row-cell .text {
+    -fx-fill: #3399FF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #00FFFF; /* Ciano para seleção */
+}
+.table-row-cell:selected .text {
+    -fx-fill: black;
+}
+
+/* --- CAMPOS DE FORMULÁRIO --- */
+.text-field, .combo-box, .date-picker, .text-area {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+.text-field:focused, .combo-box:focused, .date-picker:focused, .text-area:focused {
+    -fx-border-color: #FFFF00;
+    -fx-border-width: 2px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #333333;
+}
+
+.combo-box .arrow, .date-picker .arrow-button .arrow {
+    -fx-background-color: #FFFF00;
+}
+
+/* --- OUTROS COMPONENTES --- */
+.separator .line {
+    -fx-border-color: white;
+}
+
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: black;
+}
+
+.help-screen, .detail-screen, .dialog-pane{
+    -fx-background-color: black;
+    -fx-padding: 20px;
+}
+
+.dialog-pane > .header-panel {
+    -fx-background-color: black;
+}
+
+.dialog-pane > .header-panel .label {
+    -fx-text-fill: #FFFF00; /* Texto do cabeçalho em amarelo */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #FFFF00;
+    -fx-background-radius: 0;
+}

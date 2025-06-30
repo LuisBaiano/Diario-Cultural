@@ -1,0 +1,2091 @@
+[ {
+  "title" : "Breaking Bad: A Química do Mal",
+  "genre" : [ "Crime", "Drama", "Suspense" ],
+  "releaseYear" : 2008,
+  "seriesId" : 1,
+  "originalTitle" : "Breaking Bad",
+  "creator" : "Vince Gilligan",
+  "endYear" : 2013,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Bryan Cranston", "Aaron Paul", "Anna Gunn" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 7,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Começo intenso.",
+        "reviewDate" : 1704153600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 13,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Desenvolvimento incrível.",
+        "reviewDate" : 1704240000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 13,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "O auge da tensão.",
+        "reviewDate" : 1706153600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 13,
+    "releaseYear" : 2011,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Gus Fring é um vilão memorável.",
+        "reviewDate" : 1706240000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 16,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Final perfeito.",
+        "reviewDate" : 1706326400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Game of Thrones",
+  "genre" : [ "Aventura", "Drama", "Fantasia" ],
+  "releaseYear" : 2011,
+  "seriesId" : 2,
+  "originalTitle" : "Game of Thrones",
+  "creator" : "David Benioff, D. B. Weiss",
+  "endYear" : 2019,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Emilia Clarke", "Kit Harington", "Peter Dinklage" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2011,
+    "cast" : [ "Sean Bean" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Primeira temporada é perfeita.",
+        "reviewDate" : 1704326400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Mantém o nível.",
+        "reviewDate" : 1706412800000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 10,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Casamento Vermelho... sem palavras.",
+        "reviewDate" : 1706499200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 10,
+    "releaseYear" : 2014,
+    "cast" : [ "Pedro Pascal" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Excelentes batalhas e desenvolvimento.",
+        "reviewDate" : 1706585600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 10,
+    "releaseYear" : 2015,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 10,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Batalha dos Bastardos é incrível.",
+        "reviewDate" : 1706672000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 7,
+    "episodes" : 7,
+    "releaseYear" : 2017,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Começa a acelerar demais a história.",
+        "reviewDate" : 1706758400000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 8,
+    "episodes" : 6,
+    "releaseYear" : 2019,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 1,
+        "comment" : "Final decepcionante.",
+        "reviewDate" : 1706844800000
+      } ],
+      "averageRating" : 1.0,
+      "lastRating" : 1,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "Stranger Things",
+  "genre" : [ "Drama", "Fantasia", "Terror" ],
+  "releaseYear" : 2016,
+  "seriesId" : 3,
+  "originalTitle" : "Stranger Things",
+  "creator" : "The Duffer Brothers",
+  "endYear" : 0,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 8,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Nostalgia pura e uma ótima história.",
+        "reviewDate" : 1704412800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 9,
+    "releaseYear" : 2017,
+    "cast" : [ "Sean Astin" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Boa continuação.",
+        "reviewDate" : 1706931200000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 8,
+    "releaseYear" : 2019,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Divertida e com mais ação.",
+        "reviewDate" : 1707017600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 9,
+    "releaseYear" : 2022,
+    "cast" : [ "Joseph Quinn" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Vecna é um vilão fantástico.",
+        "reviewDate" : 1707104000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.5
+}, {
+  "title" : "The Office",
+  "genre" : [ "Comédia" ],
+  "releaseYear" : 2005,
+  "seriesId" : 4,
+  "originalTitle" : "The Office (US)",
+  "creator" : "Greg Daniels",
+  "endYear" : 2013,
+  "whereToWatch" : [ "Netflix", "HBO Max", "Prime Video" ],
+  "cast" : [ "Steve Carell", "Rainn Wilson", "John Krasinski", "Jenna Fischer" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 6,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Começo um pouco estranho.",
+        "reviewDate" : 1707190400000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 22,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A melhor temporada de comédia.",
+        "reviewDate" : 1704499200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 25,
+    "releaseYear" : 2006,
+    "cast" : [ "Ed Helms" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "O auge da série.",
+        "reviewDate" : 1706672000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 19,
+    "releaseYear" : 2007,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Dinner Party é um episódio genial.",
+        "reviewDate" : 1706758400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 28,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Stress Relief é icônico.",
+        "reviewDate" : 1707276800000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 26,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 7,
+    "episodes" : 26,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "A despedida de Michael Scott.",
+        "reviewDate" : 1707363200000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 8,
+    "episodes" : 24,
+    "releaseYear" : 2011,
+    "cast" : [ "James Spader" ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 9,
+    "episodes" : 25,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Um final emocionante.",
+        "reviewDate" : 1707449600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "Chernobyl",
+  "genre" : [ "Drama", "História", "Suspense" ],
+  "releaseYear" : 2019,
+  "seriesId" : 5,
+  "originalTitle" : "Chernobyl",
+  "creator" : "Craig Mazin",
+  "endYear" : 2019,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Jared Harris", "Stellan Skarsgård", "Emily Watson" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 5,
+    "releaseYear" : 2019,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Minissérie perfeita. Assustadoramente real e bem produzida.",
+        "reviewDate" : 1705190400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Como eu conheci sua Mãe",
+  "genre" : [ "Comédia", "Romance" ],
+  "releaseYear" : 2005,
+  "seriesId" : 6,
+  "originalTitle" : "How I Met Your Mother",
+  "creator" : "Carter Bays, Craig Thomas",
+  "endYear" : 2014,
+  "whereToWatch" : [ "Prime Video", "Star+" ],
+  "cast" : [ "Josh Radnor", "Jason Segel", "Cobie Smulders", "Neil Patrick Harris", "Alyson Hannigan" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 22,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Um ótimo começo, muito engraçado.",
+        "reviewDate" : 1707363200000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 22,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Aposta do tapa! Lendário.",
+        "reviewDate" : 1707449600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 20,
+    "releaseYear" : 2007,
+    "cast" : [ "Britney Spears" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Temporada sólida.",
+        "reviewDate" : 1707536000000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 24,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Mantém a qualidade.",
+        "reviewDate" : 1707622400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 24,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Começa a ficar um pouco repetitivo.",
+        "reviewDate" : 1707708800000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 24,
+    "releaseYear" : 2010,
+    "cast" : [ "Jennifer Morrison" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "A história da Zoey não foi das melhores.",
+        "reviewDate" : 1707795200000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 7,
+    "episodes" : 24,
+    "releaseYear" : 2011,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 8,
+    "episodes" : 24,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Achei que se arrastou um pouco.",
+        "reviewDate" : 1707881600000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 9,
+    "episodes" : 24,
+    "releaseYear" : 2013,
+    "cast" : [ "Cristin Milioti" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 1,
+        "comment" : "O final é inacreditavelmente ruim. Estragou tudo.",
+        "reviewDate" : 1707968000000
+      } ],
+      "averageRating" : 1.0,
+      "lastRating" : 1,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.375
+}, {
+  "title" : "The Simpsons",
+  "genre" : [ "Animação", "Comédia", "Sátira" ],
+  "releaseYear" : 1989,
+  "seriesId" : 7,
+  "originalTitle" : "The Simpsons",
+  "creator" : "Matt Groening",
+  "endYear" : 0,
+  "whereToWatch" : [ "Disney+", "Star+" ],
+  "cast" : [ "Dan Castellaneta", "Julie Kavner", "Nancy Cartwright", "Yeardley Smith" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 13,
+    "releaseYear" : 1989,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "O começo de uma era.",
+        "reviewDate" : 1708054400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 22,
+    "releaseYear" : 1990,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 24,
+    "releaseYear" : 1991,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Temporada clássica.",
+        "reviewDate" : 1708140800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 22,
+    "releaseYear" : 1992,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Era de Ouro, Marge vs. The Monorail!",
+        "reviewDate" : 1708227200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 22,
+    "releaseYear" : 1993,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Cape Feare é genial.",
+        "reviewDate" : 1708313600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.75
+}, {
+  "title" : "Lost",
+  "genre" : [ "Aventura", "Drama", "Fantasia", "Mistério" ],
+  "releaseYear" : 2004,
+  "seriesId" : 8,
+  "originalTitle" : "Lost",
+  "creator" : "J.J. Abrams, Jeffrey Lieber, Damon Lindelof",
+  "endYear" : 2010,
+  "whereToWatch" : [ "Star+" ],
+  "cast" : [ "Matthew Fox", "Evangeline Lilly", "Terry O'Quinn", "Josh Holloway" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 25,
+    "releaseYear" : 2004,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Um piloto incrível e uma temporada cheia de mistérios.",
+        "reviewDate" : 1708400000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 24,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Interessante, mas a escotilha é um pouco lenta.",
+        "reviewDate" : 1708486400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 23,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Not Penny's Boat. O final salva a temporada.",
+        "reviewDate" : 1708572800000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 14,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "The Constant é um dos melhores episódios de TV.",
+        "reviewDate" : 1708659200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 17,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 18,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 2,
+        "comment" : "O final dividiu opiniões, não gostei muito.",
+        "reviewDate" : 1708745600000
+      } ],
+      "averageRating" : 2.0,
+      "lastRating" : 2,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.8
+}, {
+  "title" : "Succession",
+  "genre" : [ "Drama", "Comédia" ],
+  "releaseYear" : 2018,
+  "seriesId" : 9,
+  "originalTitle" : "Succession",
+  "creator" : "Jesse Armstrong",
+  "endYear" : 2023,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Brian Cox", "Jeremy Strong", "Sarah Snook", "Kieran Culkin" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2018,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Demora a engrenar, mas vale a pena.",
+        "reviewDate" : 1708832000000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2019,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Boar on the floor.",
+        "reviewDate" : 1708918400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 9,
+    "releaseYear" : 2021,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Final de temporada de explodir a cabeça.",
+        "reviewDate" : 1709004800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 10,
+    "releaseYear" : 2023,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Um final digno e poderoso.",
+        "reviewDate" : 1709091200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.75
+}, {
+  "title" : "Better Call Saul",
+  "genre" : [ "Crime", "Drama" ],
+  "releaseYear" : 2015,
+  "seriesId" : 10,
+  "originalTitle" : "Better Call Saul",
+  "creator" : "Vince Gilligan, Peter Gould",
+  "endYear" : 2022,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Bob Odenkirk", "Rhea Seehorn", "Jonathan Banks" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2015,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Ótimo spin-off, começa devagar mas engrena.",
+        "reviewDate" : 1708313600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 10,
+    "releaseYear" : 2017,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Chicanery é uma aula de atuação.",
+        "reviewDate" : 1709177600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 10,
+    "releaseYear" : 2018,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 10,
+    "releaseYear" : 2020,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A tensão é palpável.",
+        "reviewDate" : 1709264000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 13,
+    "releaseYear" : 2022,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Um dos melhores finais de série já feitos.",
+        "reviewDate" : 1709350400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.75
+}, {
+  "title" : "The Walking Dead",
+  "genre" : [ "Drama", "Terror", "Suspense" ],
+  "releaseYear" : 2010,
+  "seriesId" : 11,
+  "originalTitle" : "The Walking Dead",
+  "creator" : "Frank Darabont",
+  "endYear" : 2022,
+  "whereToWatch" : [ "Netflix", "Star+" ],
+  "cast" : [ "Andrew Lincoln", "Norman Reedus", "Melissa McBride" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 6,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Uma das melhores temporadas de estreia de todos os tempos.",
+        "reviewDate" : 1708400000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 13,
+    "releaseYear" : 2011,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Muito parada, a fazenda não acaba nunca.",
+        "reviewDate" : 1709436800000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 16,
+    "releaseYear" : 2012,
+    "cast" : [ "Danai Gurira", "David Morrissey" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "A prisão e o Governador são ótimos.",
+        "reviewDate" : 1709523200000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 16,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 16,
+    "releaseYear" : 2014,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Terminus foi intenso.",
+        "reviewDate" : 1709609600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "Mad Men",
+  "genre" : [ "Drama" ],
+  "releaseYear" : 2007,
+  "seriesId" : 12,
+  "originalTitle" : "Mad Men",
+  "creator" : "Matthew Weiner",
+  "endYear" : 2015,
+  "whereToWatch" : [ ],
+  "cast" : [ "Jon Hamm", "Elisabeth Moss", "Vincent Kartheiser", "January Jones" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 13,
+    "releaseYear" : 2007,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 13,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 13,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Desenvolvimento lento, mas profundo.",
+        "reviewDate" : 1709696000000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 13,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "The Suitcase é uma obra de arte.",
+        "reviewDate" : 1708486400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 13,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 13,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 7,
+    "episodes" : 14,
+    "releaseYear" : 2014,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Final contemplativo e perfeito para o personagem.",
+        "reviewDate" : 1709782400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.666666666666667
+}, {
+  "title" : "Doctor Who",
+  "genre" : [ "Aventura", "Drama", "Ficção Científica" ],
+  "releaseYear" : 2005,
+  "seriesId" : 13,
+  "originalTitle" : "Doctor Who",
+  "creator" : "Sydney Newman",
+  "endYear" : 0,
+  "whereToWatch" : [ "GloboPlay" ],
+  "cast" : [ "David Tennant", "Matt Smith", "Peter Capaldi" ],
+  "seasons" : [ {
+    "seasonNumber" : 4,
+    "episodes" : 14,
+    "releaseYear" : 2008,
+    "cast" : [ "Catherine Tate" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A melhor dupla Doutor-Companion.",
+        "reviewDate" : 1708572800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Ted Lasso",
+  "genre" : [ "Comédia", "Drama", "Esporte" ],
+  "releaseYear" : 2020,
+  "seriesId" : 14,
+  "originalTitle" : "Ted Lasso",
+  "creator" : "Jason Sudeikis, Bill Lawrence",
+  "endYear" : 2023,
+  "whereToWatch" : [ "Apple TV+" ],
+  "cast" : [ "Jason Sudeikis", "Brett Goldstein", "Hannah Waddingham" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2020,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A série mais otimista e reconfortante.",
+        "reviewDate" : 1708659200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 12,
+    "releaseYear" : 2021,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Explora lados mais sombrios, muito bom.",
+        "reviewDate" : 1709868800000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 12,
+    "releaseYear" : 2023,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Um pouco irregular, mas com um bom final.",
+        "reviewDate" : 1709955200000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "La Casa de Papel",
+  "genre" : [ "Ação", "Crime", "Suspense" ],
+  "releaseYear" : 2017,
+  "seriesId" : 15,
+  "originalTitle" : "La Casa de Papel",
+  "creator" : "Álex Pina",
+  "endYear" : 2021,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Úrsula Corberó", "Álvaro Morte", "Itziar Ituño" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 13,
+    "releaseYear" : 2017,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Viciante, impossível parar de assistir.",
+        "reviewDate" : 1708745600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "The Queen's Gambit",
+  "genre" : [ "Drama" ],
+  "releaseYear" : 2020,
+  "seriesId" : 16,
+  "originalTitle" : "The Queen's Gambit",
+  "creator" : "Scott Frank, Allan Scott",
+  "endYear" : 2020,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Anya Taylor-Joy", "Bill Camp", "Marielle Heller" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 7,
+    "releaseYear" : 2020,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Fez o mundo se interessar por xadrez.",
+        "reviewDate" : 1708832000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Vikings",
+  "genre" : [ "Ação", "Aventura", "Drama", "História" ],
+  "releaseYear" : 2013,
+  "seriesId" : 17,
+  "originalTitle" : "Vikings",
+  "creator" : "Michael Hirst",
+  "endYear" : 2020,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Travis Fimmel", "Katheryn Winnick", "Gustaf Skarsgård" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 9,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Introdução forte a um mundo brutal.",
+        "reviewDate" : 1710041600000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2014,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Ragnar no seu auge.",
+        "reviewDate" : 1708918400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 10,
+    "releaseYear" : 2015,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 20,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "A série se perde um pouco após a saída de Ragnar.",
+        "reviewDate" : 1710128000000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.6666666666666665
+}, {
+  "title" : "Narcos",
+  "genre" : [ "Biografia", "Crime", "Drama" ],
+  "releaseYear" : 2015,
+  "seriesId" : 18,
+  "originalTitle" : "Narcos",
+  "creator" : "Carlo Bernard, Chris Brancato, Doug Miro",
+  "endYear" : 2017,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Wagner Moura", "Pedro Pascal", "Boyd Holbrook" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2015,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Wagner Moura está incrível como Pablo Escobar.",
+        "reviewDate" : 1709004800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Final da saga de Pablo é tenso e bem executado.",
+        "reviewDate" : 1710214400000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Ozark",
+  "genre" : [ "Crime", "Drama", "Suspense" ],
+  "releaseYear" : 2017,
+  "seriesId" : 19,
+  "originalTitle" : "Ozark",
+  "creator" : "Bill Dubuque, Mark Williams",
+  "endYear" : 2022,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Jason Bateman", "Laura Linney", "Julia Garner" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2017,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 0.0
+}, {
+  "title" : "Westworld",
+  "genre" : [ "Drama", "Mistério", "Ficção Científica" ],
+  "releaseYear" : 2016,
+  "seriesId" : 20,
+  "originalTitle" : "Westworld",
+  "creator" : "Lisa Joy, Jonathan Nolan",
+  "endYear" : 2022,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Evan Rachel Wood", "Jeffrey Wright", "Ed Harris", "Thandiwe Newton" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 10,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Primeira temporada é uma obra-prima.",
+        "reviewDate" : 1709177600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 10,
+    "releaseYear" : 2018,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Um pouco confusa, mas ainda interessante.",
+        "reviewDate" : 1710387200000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "Supernatural",
+  "genre" : [ "Drama", "Fantasia", "Terror" ],
+  "releaseYear" : 2005,
+  "seriesId" : 21,
+  "originalTitle" : "Supernatural",
+  "creator" : "Eric Kripke",
+  "endYear" : 2020,
+  "whereToWatch" : [ "Prime Video" ],
+  "cast" : [ "Jared Padalecki", "Jensen Ackles", "Misha Collins" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 22,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 22,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 16,
+    "releaseYear" : 2007,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 22,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Introdução dos anjos foi fantástica.",
+        "reviewDate" : 1710473600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 22,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "O final original planejado, arco perfeito.",
+        "reviewDate" : 1709264000000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "Grey's Anatomy",
+  "genre" : [ "Drama", "Romance" ],
+  "releaseYear" : 2005,
+  "seriesId" : 22,
+  "originalTitle" : "Grey's Anatomy",
+  "creator" : "Shonda Rhimes",
+  "endYear" : 0,
+  "whereToWatch" : [ "Star+" ],
+  "cast" : [ "Ellen Pompeo", "Chandra Wilson", "James Pickens Jr." ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 9,
+    "releaseYear" : 2005,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Um começo promissor.",
+        "reviewDate" : 1710560000000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 4.0
+}, {
+  "title" : "The Big Bang Theory",
+  "genre" : [ "Comédia" ],
+  "releaseYear" : 2007,
+  "seriesId" : 23,
+  "originalTitle" : "The Big Bang Theory",
+  "creator" : "Chuck Lorre, Bill Prady",
+  "endYear" : 2019,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Johnny Galecki", "Jim Parsons", "Kaley Cuoco" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 17,
+    "releaseYear" : 2007,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Ok, mas as piadas melhoram depois.",
+        "reviewDate" : 1710646400000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.0
+}, {
+  "title" : "Modern Family",
+  "genre" : [ "Comédia", "Drama", "Romance" ],
+  "releaseYear" : 2009,
+  "seriesId" : 24,
+  "originalTitle" : "Modern Family",
+  "creator" : "Steven Levitan, Christopher Lloyd",
+  "endYear" : 2020,
+  "whereToWatch" : [ "Star+" ],
+  "cast" : [ "Ed O'Neill", "Sofía Vergara", "Julie Bowen", "Ty Burrell", "Jesse Tyler Ferguson", "Eric Stonestreet" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 24,
+    "releaseYear" : 2009,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Começo incrível, muito inovador e engraçado para a época.",
+        "reviewDate" : 1709436800000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 24,
+    "releaseYear" : 2010,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Mantém o nível altíssimo, Phil Dunphy genial.",
+        "reviewDate" : 1709523200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 24,
+    "releaseYear" : 2011,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Talvez o auge da série, hilária do início ao fim.",
+        "reviewDate" : 1709609600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 24,
+    "releaseYear" : 2012,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Ainda muito boa, algumas histórias ótimas.",
+        "reviewDate" : 1709696000000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 24,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Continua forte, o casamento do Mitch e Cam foi um marco.",
+        "reviewDate" : 1709782400000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 6,
+    "episodes" : 24,
+    "releaseYear" : 2014,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 4,
+        "comment" : "Divertida, mas começando a mostrar alguns sinais de cansaço.",
+        "reviewDate" : 1709868800000
+      } ],
+      "averageRating" : 4.0,
+      "lastRating" : 4,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 7,
+    "episodes" : 22,
+    "releaseYear" : 2015,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Alguns episódios bons, mas uma temporada irregular.",
+        "reviewDate" : 1709955200000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 8,
+    "episodes" : 22,
+    "releaseYear" : 2016,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Já não tem o mesmo brilho das primeiras temporadas, mas ainda diverte.",
+        "reviewDate" : 1710041600000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 9,
+    "episodes" : 22,
+    "releaseYear" : 2017,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Ok, as crianças crescendo mudou bastante a dinâmica.",
+        "reviewDate" : 1710128000000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 10,
+    "episodes" : 22,
+    "releaseYear" : 2018,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 2,
+        "comment" : "Claramente se arrastando para o final, poucas risadas.",
+        "reviewDate" : 1710214400000
+      } ],
+      "averageRating" : 2.0,
+      "lastRating" : 2,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 11,
+    "episodes" : 18,
+    "releaseYear" : 2019,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 3,
+        "comment" : "Um final decente e emocionante para uma longa jornada.",
+        "reviewDate" : 1710300800000
+      } ],
+      "averageRating" : 3.0,
+      "lastRating" : 3,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.727272727272727
+}, {
+  "title" : "Dexter",
+  "genre" : [ "Crime", "Drama", "Mistério" ],
+  "releaseYear" : 2006,
+  "seriesId" : 25,
+  "originalTitle" : "Dexter",
+  "creator" : "James Manos Jr.",
+  "endYear" : 2013,
+  "whereToWatch" : [ "Paramount+" ],
+  "cast" : [ "Michael C. Hall", "Jennifer Carpenter", "David Zayas" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 12,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 12,
+    "releaseYear" : 2009,
+    "cast" : [ "John Lithgow" ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A temporada com o Trinity Killer é uma das melhores da história da TV.",
+        "reviewDate" : 1709523200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 8,
+    "episodes" : 12,
+    "releaseYear" : 2013,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 1,
+        "comment" : "Que final terrível.",
+        "reviewDate" : 1710732800000
+      } ],
+      "averageRating" : 1.0,
+      "lastRating" : 1,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 3.0
+}, {
+  "title" : "Arcane",
+  "genre" : [ "Animação", "Ação", "Aventura" ],
+  "releaseYear" : 2021,
+  "seriesId" : 26,
+  "originalTitle" : "Arcane: League of Legends",
+  "creator" : "Christian Linke, Alex Yee",
+  "endYear" : 0,
+  "whereToWatch" : [ "Netflix" ],
+  "cast" : [ "Hailee Steinfeld", "Ella Purnell", "Kevin Alejandro" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 9,
+    "releaseYear" : 2021,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Animação e história espetaculares. Obra de arte.",
+        "reviewDate" : 1709609600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  } ],
+  "watchedStatus" : true,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+}, {
+  "title" : "The Wire",
+  "genre" : [ "Crime", "Drama", "Suspense" ],
+  "releaseYear" : 2002,
+  "seriesId" : 27,
+  "originalTitle" : "The Wire",
+  "creator" : "David Simon",
+  "endYear" : 2008,
+  "whereToWatch" : [ "HBO Max" ],
+  "cast" : [ "Dominic West", "Lance Reddick", "Sonja Sohn", "Idris Elba" ],
+  "seasons" : [ {
+    "seasonNumber" : 1,
+    "episodes" : 13,
+    "releaseYear" : 2002,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 2,
+    "episodes" : 12,
+    "releaseYear" : 2003,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  }, {
+    "seasonNumber" : 3,
+    "episodes" : 12,
+    "releaseYear" : 2004,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "Hamsterdam!",
+        "reviewDate" : 1710819200000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 4,
+    "episodes" : 13,
+    "releaseYear" : 2006,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ {
+        "rating" : 5,
+        "comment" : "A temporada das escolas é de partir o coração.",
+        "reviewDate" : 1710905600000
+      } ],
+      "averageRating" : 5.0,
+      "lastRating" : 5,
+      "reviewCount" : 1
+    }
+  }, {
+    "seasonNumber" : 5,
+    "episodes" : 10,
+    "releaseYear" : 2008,
+    "cast" : [ ],
+    "reviewInfo" : {
+      "reviews" : [ ],
+      "averageRating" : 0.0,
+      "lastRating" : 0,
+      "reviewCount" : 0
+    }
+  } ],
+  "watchedStatus" : false,
+  "reviewInfo" : {
+    "reviews" : [ ],
+    "averageRating" : 0.0,
+    "lastRating" : 0,
+    "reviewCount" : 0
+  },
+  "averageRating" : 5.0
+} ]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToWidth="true" styleClass="help-screen" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <VBox spacing="15.0">
+            <children>
+                <Label text="Como Usar o Diário Cultural">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Label>
+
+                <Label styleClass="help-title" text="1. Navegação Principal" />
+                <Label styleClass="help-text" text="Use o menu à esquerda para navegar entre as seções: 'Meu Acervo' para ver sua coleção e 'Cadastrar' para adicionar novos itens." wrapText="true" />
+
+                <Label styleClass="help-title" text="2. Visualizando seu Acervo" />
+                <Label styleClass="help-text" text="A tela 'Meu Acervo' exibe todos os seus livros, filmes e séries. Você pode usar a barra no topo para buscar por texto, filtrar por gênero/ano e ordenar por avaliação. Clique em 'Aplicar' para ver os resultados." wrapText="true" />
+
+                <Label styleClass="help-title" text="3. Vendo Detalhes de uma Mídia" />
+                <Label styleClass="help-text" text="Dê um duplo-clique em qualquer item na tabela do acervo para abrir uma janela com todos os detalhes, incluindo suas avaliações e, no caso de séries, a lista de temporadas." wrapText="true" />
+
+                <Label styleClass="help-title" text="4. Editando e Excluindo" />
+                <Label styleClass="help-text" text="Dentro da janela de detalhes (passo 3), você encontrará os botões 'Editar' e 'Excluir'. O botão 'Editar' te levará para o formulário de cadastro já preenchido, pronto para ser alterado." wrapText="true" />
+
+                <Label styleClass="help-title" text="5. Cadastrando Séries e Temporadas" />
+                <Label styleClass="help-text" text="Na tela 'Cadastrar Série', preencha os dados principais da série. Use os botões 'Adicionar Temporada', 'Editar Selecionada' e 'Remover Selecionada' para gerenciar as temporadas e suas avaliações individuais." wrapText="true" />
+            </children>
+        </VBox>
+    </content>
+</ScrollPane>
