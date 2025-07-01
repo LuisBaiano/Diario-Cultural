@@ -32,27 +32,27 @@
                     <GridPane hgap="10.0" maxWidth="700.0" vgap="10.0">
                         <children>
                             <Label text="Título:" GridPane.halignment="RIGHT" />
-                            <TextField fx:id="titleField" GridPane.columnIndex="1" />
-                            <Label text="Autor:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-                            <TextField fx:id="authorField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                            <Label text="Ano de Publicação:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
-                            <TextField fx:id="yearField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                            <TextField fx:id="titleField" promptText="Ex: 1984" GridPane.columnIndex="1" />
                             <Label text="Título Original:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-                            <TextField fx:id="originalTitleField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                            <TextField fx:id="originalTitleField" promptText="Ex: Nineteen Eighty-Four (opcional)" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                            <Label text="Autor:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                            <TextField fx:id="authorField" promptText="Ex: George Orwell" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                            <Label text="Ano de Publicação:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                            <TextField fx:id="yearField" promptText="Ex: 1949" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                             <Label text="Editora:" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
-                            <TextField fx:id="publisherField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                            <TextField fx:id="publisherField" promptText="Ex: Companhia das Letras" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                             <Label text="ISBN:" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
-                            <TextField fx:id="isbnField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                            <TextField fx:id="isbnField" promptText="Ex: 978-8535914849" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                             <Label text="Gêneros (com vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
-                            <TextField fx:id="genreField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                            <TextField fx:id="genreField" promptText="Ex: Distopia, Ficção Científica" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                             <CheckBox fx:id="hasCopyCheckBox" mnemonicParsing="false" text="Possuo cópia física" GridPane.columnIndex="1" GridPane.rowIndex="7" />
                             <CheckBox fx:id="readStatusCheckBox" mnemonicParsing="false" text="Já li este livro" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                             <Label text="Data de Leitura:" GridPane.halignment="RIGHT" GridPane.rowIndex="9" />
-                            <DatePicker fx:id="readDatePicker" prefWidth="550.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                            <DatePicker fx:id="readDatePicker" prefWidth="550.0" promptText="Selecione a data" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                             <Label text="Nota (0-5):" GridPane.halignment="RIGHT" GridPane.rowIndex="10" />
-                            <TextField fx:id="ratingField" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                            <TextField fx:id="ratingField" promptText="Ex: 5" GridPane.columnIndex="1" GridPane.rowIndex="10" />
                             <Label text="Comentário:" GridPane.halignment="RIGHT" GridPane.rowIndex="11" />
-                            <TextArea fx:id="reviewCommentArea" prefHeight="80.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                            <TextArea fx:id="reviewCommentArea" prefHeight="80.0" promptText="O que você achou do livro?" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="11" />
                         </children>
                     </GridPane>
                 </VBox>

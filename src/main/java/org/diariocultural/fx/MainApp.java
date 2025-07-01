@@ -61,7 +61,7 @@ public class MainApp extends Application {
             controller.setLibraryService(libraryService);
 
             // Cria a cena e APLICA O CSS PADRÃO
-            mainScene = new Scene(page, 1280, 768);
+            mainScene = new Scene(page, 1280, 650);
             mainScene.getStylesheets().add(defaultCss);
 
             // Pega o controller e passa as dependências

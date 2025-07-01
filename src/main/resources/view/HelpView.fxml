@@ -3,33 +3,73 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<ScrollPane fitToWidth="true" styleClass="help-screen" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<ScrollPane fitToWidth="true" prefWidth="1100.0" prefHeight="600.0" styleClass="help-screen" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
     <content>
-        <VBox spacing="15.0">
+        <VBox spacing="15.0" styleClass="help-pane">
+            <padding>
+                <Insets bottom="20.0" left="25.0" right="25.0" top="20.0" />
+            </padding>
             <children>
                 <Label text="Como Usar o Diário Cultural">
                     <font>
-                        <Font name="System Bold" size="22.0" />
+                        <Font name="System Bold" size="24.0" />
                     </font>
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
                 </Label>
 
                 <Label styleClass="help-title" text="1. Navegação Principal" />
-                <Label styleClass="help-text" text="Use o menu à esquerda para navegar entre as seções: 'Meu Acervo' para ver sua coleção e 'Cadastrar' para adicionar novos itens." wrapText="true" />
+                <Label styleClass="help-text" text="A tela está dividida em duas áreas: o Menu de Navegação à esquerda e a Área de Conteúdo à direita." wrapText="true" />
+                <Label styleClass="help-text" text="• Menu de Navegação: Use os botões para alternar o conteúdo exibido à direita. O botão da seção ativa ficará destacado com uma cor diferente." wrapText="true" />
 
-                <Label styleClass="help-title" text="2. Visualizando seu Acervo" />
-                <Label styleClass="help-text" text="A tela 'Meu Acervo' exibe todos os seus livros, filmes e séries. Você pode usar a barra no topo para buscar por texto, filtrar por gênero/ano e ordenar por avaliação. Clique em 'Aplicar' para ver os resultados." wrapText="true" />
+                <Separator />
 
-                <Label styleClass="help-title" text="3. Vendo Detalhes de uma Mídia" />
-                <Label styleClass="help-text" text="Dê um duplo-clique em qualquer item na tabela do acervo para abrir uma janela com todos os detalhes, incluindo suas avaliações e, no caso de séries, a lista de temporadas." wrapText="true" />
+                <Label styleClass="help-title" text="2. Meu Acervo: A Sua Coleção" />
+                <Label styleClass="help-text" text="Esta é a tela principal. Ela exibe uma tabela com todos os seus livros, filmes e séries." wrapText="true" />
+                <Label styleClass="help-title" text="2.1. Busca, Filtros e Ordenação" />
+                <Label styleClass="help-text" text="Use a barra de ferramentas no topo para organizar sua coleção:" wrapText="true" />
+                <Label styleClass="help-text" text="• Pesquisar: Digite qualquer termo (título, autor, diretor, etc.) e clique em 'Aplicar'." wrapText="true" />
+                <Label styleClass="help-text" text="• Filtrar: Preencha os campos 'Gênero' e/ou 'Ano' e clique em 'Aplicar' para refinar a lista." wrapText="true" />
+                <Label styleClass="help-text" text="• Ordenar: Selecione 'Melhor Avaliados' ou 'Pior Avaliados' no menu e clique em 'Aplicar' para ordenar a lista com base nas suas notas." wrapText="true" />
+                <Label styleClass="help-text" text="• Limpar Filtros: Este botão remove todos os filtros e ordenações, restaurando a visualização completa do acervo." wrapText="true" />
 
-                <Label styleClass="help-title" text="4. Editando e Excluindo" />
-                <Label styleClass="help-text" text="Dentro da janela de detalhes (passo 3), você encontrará os botões 'Editar' e 'Excluir'. O botão 'Editar' te levará para o formulário de cadastro já preenchido, pronto para ser alterado." wrapText="true" />
+                <Separator />
 
-                <Label styleClass="help-title" text="5. Cadastrando Séries e Temporadas" />
-                <Label styleClass="help-text" text="Na tela 'Cadastrar Série', preencha os dados principais da série. Use os botões 'Adicionar Temporada', 'Editar Selecionada' e 'Remover Selecionada' para gerenciar as temporadas e suas avaliações individuais." wrapText="true" />
+                <Label styleClass="help-title" text="3. Adicionando uma Nova Mídia" />
+                <Label styleClass="help-text" text="• Clique em 'Cadastrar Livro', 'Cadastrar Filme' ou 'Cadastrar Série' no menu lateral para abrir o formulário correspondente." wrapText="true" />
+                <Label styleClass="help-text" text="• Preencha os campos com as informações da mídia. Após preencher, clique no botão 'Adicionar...' na parte inferior do formulário." wrapText="true" />
+                <Label styleClass="help-text" text="• Após salvar, você será automaticamente redirecionado de volta para a tela 'Meu Acervo'." wrapText="true" />
+
+                <Separator />
+
+                <Label styleClass="help-title" text="4. Avaliando Livros e Filmes" />
+                <Label styleClass="help-text" text="Para poder avaliar um livro ou filme, você precisa indicar que já o consumiu. No formulário de cadastro ou edição:" wrapText="true" />
+                <Label styleClass="help-text" text="1. Marque a caixa 'Já li este livro' ou 'Já assisti este filme'." wrapText="true" />
+                <Label styleClass="help-text" text="2. Ao marcar, os campos 'Data de Leitura/Visualização', 'Nota (0-5)' e 'Comentário' serão habilitados para preenchimento." wrapText="true" />
+
+                <Separator />
+
+                <Label styleClass="help-title" text="5. Gerenciando Séries e Temporadas" />
+                <Label styleClass="help-text" text="O formulário de séries possui uma tabela para gerenciar as temporadas individualmente:" wrapText="true" />
+                <Label styleClass="help-text" text="• Adicionar Temporada: Abre uma nova janela para você inserir os dados da temporada (número, ano, episódios, elenco adicional e sua avaliação). Para avaliar, marque a caixa 'Já assisti esta temporada' dentro desta janela." wrapText="true" />
+                <Label styleClass="help-text" text="• Editar Temporada: Selecione uma temporada na tabela e clique em 'Editar Selecionada' e fazer correções." wrapText="true" />
+                <Label styleClass="help-text" text="• Remover Temporada: Selecione uma temporada e clique em 'Remover Selecionada' para excluí-la." wrapText="true" />
+
+                <Separator />
+
+                <Label styleClass="help-title" text="6. Detalhes, Edição e Exclusão de Mídias" />
+                <Label styleClass="help-text" text="• Ver Detalhes: Na tela 'Meu Acervo', dê um duplo-clique em qualquer item da tabela. Uma janela sobreposta aparecerá com todas as informações detalhadas." wrapText="true" />
+                <Label styleClass="help-text" text="• Editar e Excluir: Dentro desta janela de detalhes, você encontrará os botões 'Editar' e 'Excluir' para gerenciar a mídia que está visualizando." wrapText="true" />
+
+                <Separator />
+
+                <Label styleClass="help-title" text="7. Acessibilidade" />
+                <Label styleClass="help-text" text="No rodapé do menu lateral, o botão 'Modo de Alto Contraste' alterna entre o tema padrão e um tema com cores de alto contraste (preto, branco e amarelo) para melhorar a legibilidade." wrapText="true" />
             </children>
         </VBox>
     </content>

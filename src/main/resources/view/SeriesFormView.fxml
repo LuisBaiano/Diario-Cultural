@@ -30,28 +30,28 @@
                 <VBox spacing="20.0">
                     <GridPane hgap="10.0" vgap="10.0">
                         <Label text="Título:" GridPane.halignment="RIGHT" />
-                        <TextField fx:id="titleField" GridPane.columnIndex="1" />
+                        <TextField fx:id="titleField" promptText="Ex: Breaking Bad" GridPane.columnIndex="1" />
 
                         <Label text="Título Original:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-                        <TextField fx:id="originalTitleField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="originalTitleField" promptText="Ex: Breaking Bad (opcional)" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
                         <Label text="Criador(es):" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
                         <TextField fx:id="creatorField" promptText="Ex: Vince Gilligan" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 
                         <Label text="Ano de Lançamento:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-                        <TextField fx:id="releaseYearField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="releaseYearField" promptText="Ex: 2008" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 
                         <Label text="Ano de Término:" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
                         <TextField fx:id="endYearField" promptText="0 se em andamento" GridPane.columnIndex="1" GridPane.rowIndex="4" />
 
                         <Label text="Gêneros (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
-                        <TextField fx:id="genreField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <TextField fx:id="genreField" promptText="Ex: Crime, Drama, Suspense" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
                         <Label text="Elenco Principal (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
-                        <TextArea fx:id="castArea" prefHeight="60.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <TextArea fx:id="castArea" prefHeight="60.0" promptText="Ex: Bryan Cranston, Aaron Paul..." wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="6" />
 
                         <Label text="Onde Assistir (c/ vírgula):" GridPane.halignment="RIGHT" GridPane.rowIndex="7" />
-                        <TextField fx:id="whereToWatchField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <TextField fx:id="whereToWatchField" promptText="Ex: Netflix" GridPane.columnIndex="1" GridPane.rowIndex="7" />
 
                         <CheckBox fx:id="watchedStatusCheckBox" mnemonicParsing="false" text="Já assisti tudo" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                     </GridPane>

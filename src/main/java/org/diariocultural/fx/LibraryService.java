@@ -33,19 +33,6 @@ public class LibraryService {
         ).flatMap(s -> s).collect(Collectors.toList());
     }
 
-    // Atualize o searchAllMedia
-    public List<Media> searchAllMedia(String criteria) {
-        if (criteria == null || criteria.isBlank()) {
-            return getAllMedia();
-        }
-        List<Book> booksFound = bookController.searchBooks(criteria);
-        List<Movie> moviesFound = movieController.searchMovies(criteria);
-        List<Series> seriesFound = seriesController.searchSeries(criteria);
-
-        return Stream.of(booksFound.stream(), moviesFound.stream(), seriesFound.stream())
-                .flatMap(s -> s).collect(Collectors.toList());
-    }
-
     /**
      * Retorna uma lista de mídias filtrada e ordenada de acordo com os critérios.
      * @param genreFilter O gênero para filtrar (pode ser vazio).
@@ -53,44 +40,55 @@ public class LibraryService {
      * @param sortOrder A ordem de classificação ("Melhor Avaliados", "Pior Avaliados").
      * @return Uma lista de Media processada.
      */
-    public List<Media> getFilteredAndSortedMedia(String genreFilter, int yearFilter, String sortOrder) {
+    public List<Media> getFilteredAndSortedMedia(String textCriteria, String genreFilter, int yearFilter, String sortOrder) {
+        // Começa com a lista completa de todas as mídias.
         Stream<Media> mediaStream = getAllMedia().stream();
 
-        // 1. Aplica filtro de Gênero
+        // 1. Aplica o filtro de busca por texto, se houver
+        if (textCriteria != null && !textCriteria.isBlank()) {
+            String lowerCriteria = textCriteria.toLowerCase().trim();
+            mediaStream = mediaStream.filter(media -> {
+                // Lógica de busca unificada
+                if (media instanceof Book book) {
+                    return book.getTitle().toLowerCase().contains(lowerCriteria) || book.getAuthor().toLowerCase().contains(lowerCriteria);
+                } else if (media instanceof Movie movie) {
+                    return movie.getTitle().toLowerCase().contains(lowerCriteria) || movie.getDirector().toLowerCase().contains(lowerCriteria);
+                } else if (media instanceof Series series) {
+                    return series.getTitle().toLowerCase().contains(lowerCriteria) || series.getCreator().toLowerCase().contains(lowerCriteria);
+                }
+                return false;
+            });
+        }
+
+        // 2. Aplica filtro de Gênero
         if (genreFilter != null && !genreFilter.isBlank()) {
             String lowerGenreFilter = genreFilter.toLowerCase().trim();
             mediaStream = mediaStream.filter(media -> media.getGenre().stream()
                     .anyMatch(g -> g.toLowerCase().contains(lowerGenreFilter)));
         }
 
-        // 2. Aplica filtro de Ano
+        // 3. Aplica filtro de Ano
         if (yearFilter > 0) {
             mediaStream = mediaStream.filter(media -> media.getReleaseYear() == yearFilter);
         }
 
         List<Media> filteredList = mediaStream.collect(Collectors.toList());
 
-        // 3. Aplica a Ordenação
-        if (sortOrder != null) {
-            switch(sortOrder){
-                case "Melhor Avaliados":
-                    filteredList.sort(Comparator.comparingDouble(Media::getAverageRating).reversed());
-                    break;
-                case "Pior Avaliados":
-                    Comparator<Media> worstRatedComparator = (m1, m2) -> {
-                        double r1 = m1.getAverageRating();
-                        double r2 = m2.getAverageRating();
-                        if(r1 > 0 && r2 == 0) return -1;
-                        if(r1 == 0 && r2 > 0) return 1;
-                        return Double.compare(r1, r2);
-                    };
-                    filteredList.sort(worstRatedComparator);
-                    break;
-                case "Padrão":
-                    default:
-                break;
-
+        // 4. Aplica a Ordenação
+        if (sortOrder != null && !sortOrder.equals("Padrão")) {
+            Comparator<Media> comparator = Comparator.comparingDouble(Media::getAverageRating);
+            if (sortOrder.equals("Melhor Avaliados")) {
+                comparator = comparator.reversed();
+            } else { // Pior Avaliados
+                comparator = (m1, m2) -> {
+                    double r1 = m1.getAverageRating();
+                    double r2 = m2.getAverageRating();
+                    if (r1 > 0 && r2 == 0) return -1;
+                    if (r1 == 0 && r2 > 0) return 1;
+                    return Double.compare(r1, r2);
+                };
             }
+            filteredList.sort(comparator);
         }
 
         return filteredList;

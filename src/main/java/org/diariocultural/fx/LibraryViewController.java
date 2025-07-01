@@ -86,6 +86,7 @@ public class LibraryViewController implements Initializable {
      */
     @FXML
     private void onApplyFiltersButtonClick() {
+        String textSearch = searchField.getText(); // Pega o texto de busca
         String genre = genreFilterField.getText();
         int year = 0;
         try {
@@ -99,8 +100,8 @@ public class LibraryViewController implements Initializable {
 
         String sortOrder = sortComboBox.getValue();
 
-        // Chama o serviço para obter a lista processada
-        List<Media> results = libraryService.getFilteredAndSortedMedia(genre, year, sortOrder);
+        // Chama o novo método do serviço com todos os parâmetros
+        List<Media> results = libraryService.getFilteredAndSortedMedia(textSearch, genre, year, sortOrder);
         refreshMediaTable(results);
     }
 
@@ -117,31 +118,6 @@ public class LibraryViewController implements Initializable {
         refreshMediaTable(libraryService.getAllMedia());
     }
 
-    @FXML
-    private void onHelpButtonClick() {
-        try {
-            // Carrega o FXML da janela de ajuda
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/HelpView.fxml"));
-            Parent helpContent = loader.load();
-
-            // Cria um novo diálogo (janela)
-            Dialog<ButtonType> dialog = new Dialog<>();
-            dialog.initOwner(mediaTableView.getScene().getWindow()); // Define a janela principal como "pai"
-            dialog.setTitle("Guia de Uso");
-
-            // Define o conteúdo do diálogo como a página de ajuda que carregamos
-            dialog.getDialogPane().setContent(helpContent);
-
-            // Adiciona um botão "Fechar"
-            dialog.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
-
-            dialog.showAndWait();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            showAlert(Alert.AlertType.ERROR, "Erro", "Não foi possível abrir a janela de ajuda.");
-        }
-    }
 
     /**
      * Abre a janela de detalhes para a mídia selecionada.

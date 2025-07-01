@@ -33,11 +33,11 @@
                         <Label styleClass="footer-title" text="Desenvolvido por:"/>
                         <Label styleClass="footer-name" text="Davi Baleeiro"/>
                         <Label styleClass="footer-link" text="github.com/Davilmao1306"/>
-                        <Label styleClass="footer-name" text="Luis Felipe Carvalho">
+                        <Label styleClass="footer-name" text="Luis Felipe Pereira de Carvalho">
                             <VBox.margin><Insets top="5.0" /></VBox.margin>
                         </Label>
                         <Label styleClass="footer-link" text="github.com/LuisBaiano"/>
-                        <Separator prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                        <Separator prefWidth="200.0" style="-fx-background-color: #ffffff;" >
                             <VBox.margin><Insets top="10.0" bottom="5.0" /></VBox.margin>
                         </Separator>
                         <Label styleClass="footer-small" text="© 2025 Diário Cultural"/>

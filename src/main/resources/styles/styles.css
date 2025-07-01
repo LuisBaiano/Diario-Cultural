@@ -208,6 +208,12 @@
 
 /* Estilo para o separador */
 .sidebar .separator .line {
-    -fx-border-color: #C1A87C; /* Cor da borda da sua paleta */
+    -fx-border-color: #ffffff; /* Cor da borda da sua paleta */
     -fx-border-width: 1;
+}
+
+
+.separator .line {
+    -fx-background-color: white;
+    -fx-border-width: 0;
 }
